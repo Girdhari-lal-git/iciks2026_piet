@@ -455,7 +455,7 @@ const AboutPIET = () => {
               </p>
             </div>
             <a
-              href="https://piet.poornima.org/"
+              href="https://poornimainstitute.edu.in/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-2.5 rounded-xl text-sm font-semibold tracking-tight transition-all duration-200 hover:scale-[1.04] active:scale-95 text-white"

@@ -1,7 +1,7 @@
 "use client";
 import { useRef } from "react";
 import { motion } from "framer-motion";
-import { FaMapMarkerAlt, FaEnvelope, FaPhone, FaQuestionCircle } from "react-icons/fa";
+import { FaMapMarkerAlt, FaEnvelope, FaPhone, FaQuestionCircle, FaGlobe } from "react-icons/fa";
 
 import { PageHero } from "@/components/PageHero";
 
@@ -65,6 +65,20 @@ const ContactInfoSection = () => (
             <br />
             <span className="text-xs text-[#EA580C] font-bold mt-2 inline-block">Timings: 08:00 AM to 03:00 PM (IST)</span>
           </p>
+          <div className="mt-4 pt-4 border-t border-[#F59E0B]/20">
+              <div className="flex items-center justify-center gap-2 text-[#451A03]/70 mb-2">
+                <FaGlobe className="w-4 h-4 text-[#EA580C]" />
+                <span className="text-sm font-semibold uppercase tracking-[0.12em]">Official Website</span>
+              </div>
+              <a
+                href="https://poornimainstitute.edu.in"
+                target="_blank"
+                rel="noreferrer"
+                className="text-base text-[#EA580C] hover:text-[#C2410C] font-bold transition-all"
+              >
+                poornimainstitute.edu.in
+              </a>
+            </div>
         </motion.div>
 
         {/* Email Card */}
@@ -95,6 +109,7 @@ const ContactInfoSection = () => (
             >
               iksconf.prakash@poornima.org
             </a>
+            
           </div>
         </motion.div>
       </div>

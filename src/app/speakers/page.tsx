@@ -38,32 +38,18 @@ const speakers: Speaker[] = [
     designation: "Academic & IKS Representative",
     institution: "Bhishma School of Indian Knowledge System, Australia Center",
     country: "Australia",
-    image: defaultPhoto,
+    image: "/speakers/Vinay_Deshpande.jpeg",
   },
+  
   {
     id: "speaker-2",
-    name: "Shri. Chandrahas Jog",
-    designation: "Vedic & IKS Scholar",
-    institution: "Bhishma School of Indian Knowledge System, Australia Center",
-    country: "Australia",
-    image: defaultPhoto,
-  },
-  {
-    id: "speaker-3",
     name: "Dr. Pravina Rodrigues",
     designation: "Assistant Professor, Comparative Theology & Ethics | Editor-in-Chief, Journal of Dharma Studies (Springer)",
     institution: "Starr King School for the Ministry, California",
     country: "USA",
-    image: defaultPhoto,
+    image: "/speakers/Pravina_Rodrigues.jpeg",
   },
-  {
-    id: "speaker-4",
-    name: "Dr. Antonio Marturano (PhD Law, Milan)",
-    designation: "Editor, JICES (Emerald) & Author, Leadership & Philosophy (Routledge 2025)",
-    institution: "University of Rome Tor Vergata",
-    country: "Italy",
-    image: defaultPhoto,
-  },
+
 ];
 
 const SpeakersSection = () => {
