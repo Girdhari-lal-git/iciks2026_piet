@@ -61,7 +61,7 @@ export const Footer = () => {
       <div className="relative z-10 px-4 sm:px-8 md:px-12 lg:px-16 xl:px-24 pt-14 pb-8">
 
         {/* ── Main bento grid ── */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1.4fr] gap-[1px] bg-[#F59E0B]/20 border border-[#F59E0B]/25 rounded-3xl overflow-hidden shadow-xl shadow-black/40 mb-10 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1.7fr_1.4fr_1.4fr_1.4fr] gap-[1px] bg-[#F59E0B]/20 border border-[#F59E0B]/25 rounded-3xl overflow-hidden shadow-xl shadow-black/40 mb-10 max-w-7xl mx-auto">
 
           {/* Col 1 – Brand + acknowledgment */}
           <div className="bg-[#260E03]/90 backdrop-blur-md p-6 sm:p-8 space-y-5 flex flex-col justify-between transition-all duration-300 hover:bg-[#2F1204]">
@@ -70,8 +70,8 @@ export const Footer = () => {
                 <span className="text-sm font-bold tracking-widest text-[#FBBF24] uppercase">PRAKASH 2027</span>
               </div>
               <p className="text-[#FED7AA]/80 text-[13px] leading-relaxed" style={{ textAlign: "justify" }}>
-                International Conference on Indian Knowledge Systems: Promoting Research, Advancement, and Knowledge Systems for Applied Sustainable Heritage. The Microsoft CMT service was used for managing the peer-reviewing process for this conference, provided gratis by Microsoft.
-              </p>
+                International Conference on Indian Knowledge Systems: Promoting Research, Advancement, and Knowledge Systems for Applied Sustainable Heritage.<br />
+                               </p>
             </div>
             <div className="pt-2">
               <span className="text-xs font-serif italic text-[#FDE68A]/70">॥ तमसो मा ज्योतिर्गमय ॥</span>
@@ -166,6 +166,12 @@ export const Footer = () => {
         {/* ── Divider ── */}
         <div className="h-px w-full mb-6" style={{ background: "linear-gradient(90deg, transparent, rgba(245,158,11,0.2), transparent)" }} />
 
+          {/* ── CMT Footnote ── */}
+        <div className="text-center mb-6 px-4">
+          <p className="text-[#FED7AA]/75 text-[12px] sm:text-[13px] tracking-wide font-medium leading-relaxed max-w-4xl mx-auto">
+           The Microsoft CMT service was used for managing the peer-reviewing process of this conference. This service was provided for free by Microsoft and they bore all expanses, including costs for Azure cloud services as well as for software development and support.
+          </p>
+        </div>     
         {/* ── Conference Footnote ── */}
         <div className="text-center mb-6 px-4">
           <p className="text-[#FED7AA]/75 text-[12px] sm:text-[13px] tracking-wide font-medium leading-relaxed max-w-4xl mx-auto">
