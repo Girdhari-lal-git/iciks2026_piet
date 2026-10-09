@@ -167,11 +167,16 @@ export const Footer = () => {
         <div className="h-px w-full mb-6" style={{ background: "linear-gradient(90deg, transparent, rgba(245,158,11,0.2), transparent)" }} />
 
           {/* ── CMT Footnote ── */}
-        <div className="text-center mb-6 px-4">
-          <p className="text-[#FED7AA]/75 text-[12px] sm:text-[13px] tracking-wide font-medium leading-relaxed max-w-4xl mx-auto">
+        
+       
+        {/* Microsoft CMT Acknowledgment */}
+        <div className="mb-6 rounded-lg bg-white px-5 py-4 text-center">
+          <p>
             The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
           </p>
-        </div>     
+        </div>
+
+ 
         {/* ── Conference Footnote ── */}
         <div className="text-center mb-6 px-4">
           <p className="text-[#FED7AA]/75 text-[12px] sm:text-[13px] tracking-wide font-medium leading-relaxed max-w-4xl mx-auto">
