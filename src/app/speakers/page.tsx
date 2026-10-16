@@ -49,6 +49,14 @@ const speakers: Speaker[] = [
     country: "USA",
     image: "/speakers/Pravina_Rodrigues.jpeg",
   },
+  {
+    id: "speaker-3",
+    name: "Dr. Abhivan Kr. Mishra",
+    designation: "Professor & Head, Department of Linguistics",
+    institution: "Banaras Hindu University, Varanasi, Uttar Pradesh",
+    country: "India",
+    image: "/speakers/Dr_Abhivan_kr._Mishra.jpeg",
+  },
 
 ];
 
