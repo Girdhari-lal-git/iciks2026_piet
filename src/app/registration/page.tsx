@@ -85,7 +85,7 @@ const RegistrationContent = () => {
                 <div>
                   <p className="font-semibold text-[#1C0B02] mb-1">3) Submission Portal</p>
                   <a 
-                    href="https://cmt3.research.microsoft.com/"
+                    href="https://cmt3.research.microsoft.com/PRAKASH2027/Submission/Index"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-xs sm:text-sm text-[#EA580C] font-bold hover:underline inline-flex items-center gap-1"
@@ -135,7 +135,7 @@ const RegistrationContent = () => {
                 </a>
                 
                 <a
-                  href="https://cmt3.research.microsoft.com/"
+                  href="https://cmt3.research.microsoft.com/PRAKASH2027/Submission/Index"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-[#1C0B02] text-white px-4 sm:px-6 py-3 rounded-lg font-medium inline-flex items-center justify-center tracking-tight hover:bg-[#2E1104] transition-colors text-xs sm:text-sm"
