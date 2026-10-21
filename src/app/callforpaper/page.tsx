@@ -30,7 +30,7 @@ const CallForPaperHero = () => {
       title="Call for Papers"
       subtitle="Submit original, high-quality research across 5 broad tracks & 35+ sub-tracks in Indian Knowledge Systems"
       tagline="Promoting Research, Advancement, and Knowledge Systems for Applied Sustainable Heritage (Legacy)"
-      primaryCta={{ label: "Submit Paper via Email", href: "mailto:iksconf.prakash@poornima.org?subject=Paper%20Submission%20-%20PRAKASH%202027" }}
+      primaryCta={{ label: "Submit Paper via CMT", href: "https://cmt3.research.microsoft.com/PRAKASH2027/Submission/Index" }}
       secondaryCta={{ label: "Explore 5 Tracks", href: "#tracks" }}
     />
   );
@@ -473,17 +473,19 @@ const CallForPaperContent = () => {
               >
                 <h3 className="font-bold text-lg text-[#1C0B02]">Paper Submission Mode</h3>
                 <p className="text-xs sm:text-sm text-[#2E1104]/80 leading-relaxed">
-                  Authors can submit their complete research paper (PDF and editable Word document) directly to the conference editorial desk:
+                  Authors can submit their complete research paper (PDF and editable Word document) via the Microsoft CMT portal.:
                 </p>
 
                 <a
-                  href="mailto:iksconf.prakash@poornima.org?subject=Paper%20Submission%20-%20PRAKASH%202027"
+                  href="https://cmt3.research.microsoft.com/PRAKASH2027/Submission/Index"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl text-sm font-semibold tracking-tight transition-all duration-200 hover:scale-[1.02] hover:shadow-md text-white w-full shadow-md shadow-[#EA580C]/25"
                   style={{
                     background: "linear-gradient(135deg, #EA580C 0%, #D97706 100%)",
                   }}
                 >
-                  Submit Paper to iksconf.prakash@poornima.org
+                  Submit Paper via CMT
                   <FaExternalLinkAlt className="text-xs" />
                 </a>
 
