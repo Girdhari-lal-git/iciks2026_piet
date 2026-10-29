@@ -171,6 +171,27 @@ const committeeData = {
       role: "Dept of AI & DS"
     }
   ],
+  technicalDocumentationCommittee: [
+    { sNo: 1, id: 301, name: "Dr. Rekha Rani Agrawal", role: "Professor" },
+    { sNo: 2, id: 302, name: "Dr. Priya Mathur", role: "Professor" },
+    { sNo: 3, id: 303, name: "Dr. Nupur Jain", role: "Associate Professor" },
+    { sNo: 4, id: 304, name: "Dr. Mahak Bhatia", role: "Associate Professor" },
+    { sNo: 5, id: 305, name: "Ms. Aniva Sharma", role: "Assistant Professor" },
+    { sNo: 6, id: 306, name: "Mr. Robin Prakash", role: "Assistant Professor" },
+    { sNo: 7, id: 307, name: "Mr. Sharad Srivastava", role: "Assistant Professor" },
+    { sNo: 8, id: 308, name: "Dr. Garima Kachhara", role: "Associate Professor" },
+    { sNo: 9, id: 309, name: "Ms. Harshika Jha", role: "Assistant Professor" },
+    { sNo: 10, id: 310, name: "Ms. Dhwani Gangal", role: "Assistant Professor" },
+    { sNo: 11, id: 311, name: "Mr. Shamal Burman", role: "Assistant Professor" }
+  ],
+  hospitalityLogisticsCommittee: [
+    { sNo: 1, id: 321, name: "Dr. Rekha Rani Agrawal", role: "Professor" },
+    { sNo: 2, id: 322, name: "Dr. Priya Mathur", role: "Professor" },
+    { sNo: 3, id: 323, name: "Dr. Nupur Jain", role: "Associate Professor" },
+    { sNo: 4, id: 324, name: "Ms. Aniva Sharma", role: "Assistant Professor" },
+    { sNo: 5, id: 325, name: "Mr. Robin Prakash", role: "Assistant Professor" },
+    { sNo: 6, id: 326, name: "Mr. Shamal Burman", role: "Assistant Professor" }
+  ],
   internationalAdvisory: [
     {
       id: 201,
@@ -450,7 +471,9 @@ const CommitteesSection = () => {
           <CommitteeSection title="CHAIRPERSON" members={committeeData.chairperson} startIndex={2} />
           <CommitteeSection title="CONVENERS" members={committeeData.conveners} startIndex={3} />
           <CommitteeSection title="ORGANIZING MEMBERS" members={committeeData.organizingMembers} startIndex={5} />
-          <CommitteeSection title="INTERNATIONAL ADVISORY COMMITTEE" members={committeeData.internationalAdvisory} startIndex={23} />
+          <CommitteeSection title="TECHNICAL AND DOCUMENTATION COMMITTEE" members={committeeData.technicalDocumentationCommittee} startIndex={23} />
+          <CommitteeSection title="HOSPITALITY AND LOGISTICS COMMITTEE" members={committeeData.hospitalityLogisticsCommittee} startIndex={34} />
+          <CommitteeSection title="INTERNATIONAL ADVISORY COMMITTEE" members={committeeData.internationalAdvisory} startIndex={40} />
           <CommitteeSection title="NATIONAL ADVISORY COMMITTEE" members={committeeData.nationalAdvisory} startIndex={27} />
         </div>
       </div>
