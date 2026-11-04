@@ -21,6 +21,7 @@ const RegistrationHero = () => {
       tagline="Join leading traditional scholars, scientists, and academicians in revitalizing and validating Indian Knowledge Systems"
       primaryCta={{ label: "View Fee Structure", href: "#fees" }}
       secondaryCta={{ label: "Payment Guidelines", href: "#payment" }}
+      tertiaryCta={{ label: "Registration Link", href: "https://forms.gle/boCYQbQMyVC5L2nJ6" }}
     />
   );
 };
@@ -161,7 +162,7 @@ const RegistrationContent = () => {
                 </div>
                 <div className="flex justify-between items-center py-2 border-b border-[#F59E0B]/15">
                   <span className="font-medium">Paper Submission Deadline:</span>
-                  <span className="text-[#EA580C] font-semibold">15 November, 2026</span>
+                  <span className="text-[#EA580C] font-semibold">10 December, 2026</span>
                 </div>
                 <div className="flex justify-between items-center py-2 border-b border-[#F59E0B]/15">
                   <span className="font-medium">Acceptance Notification:</span>

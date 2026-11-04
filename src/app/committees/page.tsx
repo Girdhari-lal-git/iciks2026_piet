@@ -72,125 +72,139 @@ const committeeData = {
       sNo: 2,
       id: 7,
       name: "Dr. Deepen Banoriya",
-      role: "Professor & Dy. HOD (Admin)"
+      role: "Professor & Dy. HOD (Admin)",
+      organization: "Department of Applied Sciences",
     },
     {
       sNo: 3,
       id: 8,
       name: "Dr. Rituraj Singh Rathore",
-      role: "Associate Professor & Dy. HOD (Academics)"
+      role: "Associate Professor & Dy. HOD (Academics)",
+      organization: "Department of Applied Sciences"
     },
     {
       sNo: 4,
       id: 9,
-      name: "Dr. O.P. Sikhwal",
-      role: "Professor"
+      name: "Dr. Ashwini Kumar",
+      role: "Professor",
+      organization: "Department of Computer Engineering"
     },
     {
       sNo: 5,
       id: 10,
-      name: "Dr. Nitin Mathur",
-      role: "Associate Professor"
+      name: "Dr. Vandana",
+      role: "Associate Professor",
+      organization: "Department of Internet of Things (IoT)"
     },
     {
       sNo: 6,
       id: 11,
-      name: "Dr. Prince Dawar",
-      role: "Associate Professor"
+      name: "Dr. O. P. Sikhwal",
+      role: "Professor",
+      organization: "Department of Computer Engineering"
     },
+
     {
       sNo: 7,
       id: 12,
-      name: "Dr. Mahak Bhatia",
-      role: "Associate Professor"
+      name: "Dr. Nitin Mathur",
+      role: "Associate Professor",
+      organization: "Department of Applied Sciences"
     },
+
     {
       sNo: 8,
       id: 13,
-      name: "Ms. Neha Shekhawat",
-      role: "Assistant Professor"
+      name: "Dr. Prince Dawar",
+      role: "Associate Professor",
+      organization: "Department of Applied Sciences"
     },
     {
       sNo: 9,
       id: 14,
-      name: "Ms. Charul Bapna",
-      role: "Assistant Professor"
+      name: "Dr. Mahak Bhatia",
+      role: "Associate Professor",
+      organization: "Department of Applied Sciences"
     },
     {
       sNo: 10,
       id: 15,
-      name: "Ms. Rimjhim Jain",
-      role: "Assistant Professor"
+      name: "Ms. Neha Shekhawat",
+      role: "Assistant Professor",
+      organization: "Department of Applied Sciences"
     },
     {
       sNo: 11,
       id: 16,
-      name: "Mr. Vishal Rohela",
-      role: "Assistant Professor"
+      name: "Ms. Charul Bapna",
+      role: "Assistant Professor",
+      organization: "Department of Applied Sciences"
     },
     {
       sNo: 12,
       id: 17,
-      name: "Mr. Vishnu Prakash Sharma",
-      role: "Assistant Professor"
+      name: "Ms. Rimjhim Jain",
+      role: "Assistant Professor",
+      organization: "Department of Applied Sciences"
     },
     {
       sNo: 13,
       id: 18,
-      name: "Mr. Arvind Mathur",
-      role: "Assistant Professor"
+      name: "Mr. Vishal Rohela",
+      role: "Assistant Professor",
+      organization: "Department of Applied Sciences"
     },
     {
       sNo: 14,
       id: 19,
-      name: "Mr. Himanshu Giria",
-      role: "Assistant Professor"
+      name: "Mr. Vishnu Prakash Sharma",
+      role: "Assistant Professor",
+      organization: "Department of Applied Sciences"
     },
     {
       sNo: 15,
       id: 20,
-      name: "Mr. Shiv Prakash Dadhich",
-      role: "Assistant Professor"
+      name: "Mr. Arvind Mathur",
+      role: "Assistant Professor",
+      organization: "Department of Applied Sciences"
     },
     {
       sNo: 16,
-      id: 21,
-      name: "Dr. Ashwani Kumar",
-      role: "Dept of CS"
+      id: 20,
+      name: "Mr. Himanshu Giria",
+      role: "Assistant Professor",
+      organization: "Department of Applied Sciences"
     },
     {
       sNo: 17,
-      id: 22,
-      name: "Dr. Vandana Rajawat",
-      role: "Dept of IoT"
+      id: 21,
+      name: "Mr. Shiv Prakash Dadhich",
+      role: "Assistant Professor",
+      organization: "Department of Applied Sciences"
     },
-    {
-      sNo: 18,
-      id: 23,
-      name: "Ms. Jyoti Panchariya",
-      role: "Dept of AI & DS"
-    }
+   
   ],
   technicalDocumentationCommittee: [
-    { sNo: 1, id: 301, name: "Dr. Rekha Rani Agrawal", role: "Professor" },
-    { sNo: 2, id: 302, name: "Dr. Priya Mathur", role: "Professor" },
-    { sNo: 3, id: 303, name: "Dr. Nupur Jain", role: "Associate Professor" },
-    { sNo: 4, id: 304, name: "Dr. Mahak Bhatia", role: "Associate Professor" },
-    { sNo: 5, id: 305, name: "Ms. Aniva Sharma", role: "Assistant Professor" },
-    { sNo: 6, id: 306, name: "Mr. Robin Prakash", role: "Assistant Professor" },
-    { sNo: 7, id: 307, name: "Mr. Sharad Srivastava", role: "Assistant Professor" },
-    { sNo: 8, id: 308, name: "Dr. Garima Kachhara", role: "Associate Professor" },
-    { sNo: 9, id: 309, name: "Ms. Harshika Jha", role: "Assistant Professor" },
-    { sNo: 10, id: 310, name: "Ms. Dhwani Gangal", role: "Assistant Professor" },
-    { sNo: 11, id: 311, name: "Mr. Shamal Burman", role: "Assistant Professor" }
+    { sNo: 1, id: 301, name: "Dr. Rekha Rani Agrawal", role: "Professor", organization: "Department of Applied Sciences" },
+    { sNo: 2, id: 302, name: "Dr. Priya Mathur", role: "Professor", organization: "Department of Applied Sciences" },
+    { sNo: 3, id: 303, name: "Dr. Nupur Jain", role: "Associate Professor", organization: "Department of Applied Sciences" },
+    { sNo: 4, id: 312, name: "Dr. Pooja Rani", role: "Associate Professor", organization: "Department of Applied Sciences" },
+    { sNo: 5, id: 304, name: "Dr. Mahak Bhatia", role: "Associate Professor", organization: "Department of Applied Sciences" },
+    { sNo: 6, id: 305, name: "Ms. Aroma Sharma", role: "Assistant Professor", organization: "Department of Applied Sciences" },
+    { sNo: 7, id: 306, name: "Mr. Robin Prakash", role: "Assistant Professor", organization: "Department of Applied Sciences" },
+    { sNo: 8, id: 307, name: "Mr. Sharad Srivastava", role: "Assistant Professor", organization: "Department of Applied Sciences" },
+    { sNo: 9, id: 308, name: "Dr. Garima Kachhara", role: "Associate Professor", organization: "Department of Applied Sciences" },
+    { sNo: 10, id: 309, name: "Ms. Harshika Jha", role: "Assistant Professor", organization: "Department of Applied Sciences" },
+    { sNo: 11, id: 310, name: "Ms. Dhwani Gangal", role: "Assistant Professor", organization: "Department of Applied Sciences" },
+    { sNo: 12, id: 311, name: "Mr. Shamal Burman", role: "Assistant Professor", organization: "Department of Applied Sciences" }
   ],
   hospitalityLogisticsCommittee: [
-    { sNo: 1, id: 321, name: "Dr. Rekha Rani Agrawal", role: "Professor" },
-    { sNo: 2, id: 322, name: "Dr. Priya Mathur", role: "Professor" },
-    { sNo: 3, id: 323, name: "Dr. Nupur Jain", role: "Associate Professor" },
-    { sNo: 4, id: 324, name: "Ms. Aniva Sharma", role: "Assistant Professor" },
-    { sNo: 5, id: 325, name: "Mr. Robin Prakash", role: "Assistant Professor" },
-    { sNo: 6, id: 326, name: "Mr. Shamal Burman", role: "Assistant Professor" }
+    { sNo: 1, id: 321, name: "Dr. Rekha Rani Agrawal", role: "Professor", organization: "Department of Applied Sciences" },
+    { sNo: 2, id: 322, name: "Dr. Priya Mathur", role: "Professor", organization: "Department of Applied Sciences" },
+    { sNo: 3, id: 323, name: "Dr. Nupur Jain", role: "Associate Professor", organization: "Department of Applied Sciences" },
+    { sNo: 4, id: 324, name: "Ms. Aniva Sharma", role: "Assistant Professor", organization: "Department of Applied Sciences" },
+    { sNo: 5, id: 325, name: "Mr. Robin Prakash", role: "Assistant Professor", organization: "Department of Applied Sciences" },
+    { sNo: 6, id: 326, name: "Mr. Shamal Burman", role: "Assistant Professor", organization: "Department of Applied Sciences" }
   ],
   internationalAdvisory: [
     {
@@ -208,7 +222,7 @@ const committeeData = {
     {
       id: 203,
       name: "Dr. Pravina Rodrigues",
-      role: "Assistant Professor & Editor-in-Chief, Journal of Dharma Studies (Springer)",
+      role: "Editor-in-Chief, Journal of Dharma Studies (Springer)",
       organization: "Starr King School for the Ministry, California, USA"
     },
     {

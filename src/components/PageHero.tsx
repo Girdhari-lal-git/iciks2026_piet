@@ -13,6 +13,7 @@ interface PageHeroProps {
   chips?: Array<{ icon?: React.ReactNode; text: string }>;
   primaryCta?: { label: string; href: string };
   secondaryCta?: { label: string; href: string };
+  tertiaryCta?: { label: string; href: string };
 }
 
 const heroBg = "/assets/vedic_hero_bg.jpg";
@@ -29,6 +30,7 @@ export const PageHero: React.FC<PageHeroProps> = ({
   ],
   primaryCta,
   secondaryCta,
+  tertiaryCta,
 }) => {
   return (
     <section
@@ -164,7 +166,7 @@ export const PageHero: React.FC<PageHeroProps> = ({
         )}
 
         {/* 5. Optional CTAs */}
-        {(primaryCta || secondaryCta) && (
+        {(primaryCta || secondaryCta || tertiaryCta) && (
           <motion.div
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
@@ -189,6 +191,16 @@ export const PageHero: React.FC<PageHeroProps> = ({
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-bold text-sm text-[#FDE68A] transition-all duration-300 hover:scale-[1.04] active:scale-95 bg-black/40 hover:bg-[#EA580C]/20 border border-[#F59E0B]/50 backdrop-blur-md"
               >
                 <span>{secondaryCta.label}</span>
+              </Link>
+            )}
+            {tertiaryCta && (
+              <Link
+                href={tertiaryCta.href}
+                target={/^https?:\/\//.test(tertiaryCta.href) ? "_blank" : undefined}
+                rel={/^https?:\/\//.test(tertiaryCta.href) ? "noopener noreferrer" : undefined}
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-bold text-sm text-[#FEF08A] transition-all duration-300 hover:scale-[1.04] active:scale-95 bg-[#FEF08A]/10 hover:bg-[#FEF08A]/20 border border-[#FEF08A]/40 backdrop-blur-md"
+              >
+                <span>{tertiaryCta.label}</span>
               </Link>
             )}
           </motion.div>
